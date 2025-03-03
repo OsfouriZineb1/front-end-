@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.header-image {
+    width: 80%; /* Réduire la largeur de l'image à 80% de l'écran */
+    max-width: 900px; /* Limiter la largeur maximale de l'image */
+    height: auto; /* Maintenir le ratio de l'image */
+    display: block; /* Assurer que l'image soit un bloc pour pouvoir la centrer */
+    margin: 0 auto; /* Centrer horizontalement */
+    max-height: 300px; /* Optionnel : Ajuster la hauteur maximale de l'image si nécessaire */
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #4e8ed3;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: #4e85d3;
+}
+
+.exam-item {
+    background-color: #4e8ed3;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #878484;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.exam-item h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.exam-item p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #fefefe;
+}
+
+.delete-btn {
+    background-color: #f8f8f8;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+#exam-list {
+    padding: 0;
+    list-style-type: none;
+}
+ 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+    height: 100vh; /* Utiliser 100% de la hauteur de la fenêtre */
+    flex-direction: column; /* Disposer les éléments en colonne */
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 500px; /* Limiter la largeur du formulaire */
+    margin-top: 20px;
+}
+
+button {
+    background-color: #4e8ed3;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: #4e85d3;
+}
+
+input, button {
+    width: 100%; /* S'assurer que les champs prennent toute la largeur */
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="text"], input[type="date"] {
+    width: calc(100% - 22px); /* Ajuster la largeur des champs */
+}
+
+.exam-item {
+    background-color: #4e8ed3;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #878484;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.exam-item h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.exam-item p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #fefefe;
+}
+
+.delete-btn {
+    background-color: #f8f8f8;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+#exam-list {
+    padding: 0;
+    list-style-type: none;
+}
+    #qr-code-container {
+        display: flex;
+        justify-content: center; /* Centrer le QR code horizontalement */
+        align-items: center;     /* Centrer le QR code verticalement */
+        margin-top: 20px;        /* Espacer le QR code du reste du contenu */
+    }

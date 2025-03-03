@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter un Examen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="R.png" alt="Image en haut de page" class="header-image">
+    </header>
+    <div class="container">
+        <h1>Ajouter un Examen</h1>
+        <form id="exam-form">
+            <label for="exam-name">Nom de l'examen :</label>
+            <input type="text" id="exam-name" required>
+
+            <label for="exam-date">Date de l'examen :</label>
+            <input type="date" id="exam-date" required>
+
+            <button type="submit">Ajouter un Examen</button>
+        </form>
+
+        <!-- Conteneur pour le QR Code généré -->
+        <div id="qr-code-container"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
